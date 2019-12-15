@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+.header {
+    height: 45px;
+    background-color:black;
+}
+.header ul li {
+    color: white;
+    margin: 15px;
+}
+.menu  h1 span {
+    color:red;
+    font-size: 1.8em;
+}
+.menu  h1 a {
+    text-decoration: none;
+    color:yellow;
+}
+
+ul.nav.navbar-nav>li {
+    font-size: 1.2em;
+    margin: 0 0.8em;
+    border-right: 1px solid black;
+    padding-right: 1.5em;
+}
+ul.nav.navbar-nav li a {
+    color: black;
+    text-decoration: none;
+}
+ul.nav.navbar-nav li a:hover {
+    color: red;
+    transition: 0.7s;
+}
+ul.nav.navbar-nav li:nth-child(5) {
+    border-right: none;
+}
+.menu .navbar {
+    border-bottom: 1px solid black;
+}
+.menu .navbar .navbar-collapse {
+    margin-left: 33em;
+}
+.menu .navbar button {
+    border:1px solid red;
+}
+.banner {
+    background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 46%, rgba(0, 0, 0,0.4) 64%,rgba(0, 0, 0,0.1) 100%);	
+}
+.banner p {
+    color: orange;
+    font-size: 40px;
+    padding: 25px;
+    font-family: serif;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.main-content {
+    margin: 20px;
+}
+.main-content .option {
+    text-align: center;
+
+}
+.main-content .option h3 {
+    display: inline;
+    padding: 0 150px;
+}
+.main-content .option h3 a {
+    color: orange;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.main-content .option h3 :hover {
+    text-decoration:none;
+    color: black;
+}
+.main-content .table-responsive {
+    margin-top: 40px;
+}
+.main-content table  tbody tr.description td {
+    
+    word-break: break-all;
+}
+.main-content table  tbody tr.description td span {
+    font-weight: bold;
+}
+.main-content table  tbody tr.convenient td {
+    border-bottom: 2px solid black;
+    word-break: break-all;
+}
+.main-content table  tbody tr.convenient td span {
+    font-weight: bold;
+}
+.item {
+    border: 3px solid red;
+}
+
+.main-content .table .item {
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+td {
+    min-width: 10px;
+}
+
+.footer {
+    background: black;
+    color:#979797;
+    padding:auto;
+}
+.footer p {
+    text-align: center;
+    padding: 10px;
+}
+

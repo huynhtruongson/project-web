@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+}
+.header {
+    height: 45px;
+    background-color:black;
+}
+.header ul li {
+    color: white;
+    margin: 15px;
+}
+.menu {
+    position: relative; /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to "relative" by script */
+    overflow: hidden; /* to bound the empty top space created by inner element's top margin */
+    width: 100%;
+    min-height: 650px;
+    background-color: #999;
+}
+
+.menu .content h1 span {
+    color:red;
+    font-size: 1.8em;
+}
+.menu .content h1 a {
+    text-decoration: none;
+    color:yellow;
+}
+
+ul.nav.navbar-nav>li {
+    font-size: 1.2em;
+    margin: 0 0.8em;
+    border-right: 1px solid white;
+    padding-right: 1.5em;
+}
+ul.nav.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+}
+ul.nav.navbar-nav li a:hover {
+    color: red;
+    transition: 0.7s;
+}
+ul.nav.navbar-nav li:nth-child(5) {
+    border-right: none;
+}
+.menu .content .navbar {
+    border-bottom: 1px solid white;
+}
+.menu .content .navbar .navbar-collapse {
+    margin-left: 33em;
+}
+.menu .content .navbar button {
+    border:1px solid red;
+}
+.menu .content .baner {
+    text-align: center;
+    margin-top: 10em;
+    letter-spacing: 10px;
+    font-family:Arial;
+}
+.menu .content .baner h3 {
+    font-size: 4em;
+    color: white;
+
+}
+.menu .content .baner h3 span {
+    color: red;
+
+}
+.menu .content .baner h4 {
+    font-size: 2em;
+    color: yellow;
+    background: rgba(0, 0, 0, 0.64);
+    font-style: italic;
+}
+.menu .content .baner p {
+    font-size: 1em;
+    color: white;
+    font-style: normal;
+}
+
+.bodyContainer .introduce {
+    padding-top: 4em;
+    text-align: center;
+    width: 80%;
+    line-height: 2em;
+    margin: auto;
+}
+.bodyContainer .introduce h3 {
+    color: red;
+    word-spacing: 0.1em;
+}
+.bodyContainer .introduce p {
+    font-weight:500;
+}
+.row {
+    justify-content: center;
+    padding: 10px;
+}
+.row .card {
+    padding:12px;
+    margin:7px;
+}
+.row .card:hover {
+    border-top: 5px solid red ;
+    box-shadow: 5px 10px 8px #888888;
+    transition:0.8s;
+}
+.row .card h5 {
+    color: #fc5a03;
+}
+.text-feature {
+    font-size: 35px;
+    color: #03a819;
+    margin:30px auto;
+    text-align: center;
+    width:200px;
+    border-radius: 200px;
+    border: 3px solid #faa61a;
+}
+.row-feature {
+    text-align: center;
+    justify-content: center;
+    background: #3f4042;
+}
+.row-feature .row-col {
+    color: white;
+}
+.row-feature .row-col .fa{
+    height:70px;
+	width:65px;
+    text-align:center;
+    border: 3px solid #faa61a;
+    color: #faa61a;    
+	padding-top:15px;
+	font-size:35px;
+	margin-bottom:28px;
+    transition:.4s;    
+}
+.row-feature .row-col:hover i.fa{
+    transform: rotatey(180deg);
+ }
+.row-feature .row-col h3 {
+    font-size:22px;
+	font-weight:bold;
+	margin-bottom:6px;
+}
+.text-booking {
+    font-size: 35px;
+    background-color: orange;
+    margin:30px auto;
+    text-align: center;
+    width:200px;
+    border-radius: 200px;
+    border: 3px solid #faa61a;
+}
+.text-booking a {
+    color: white;
+}
+.text-booking a:hover {
+    text-decoration: none;
+    color:greenyellow;
+}
+.row-footer {
+    background: rgb(44, 41, 41);
+}
+.row-footer h3 {
+    color: orange;
+    font-family:serif;
+    font-weight: bold;
+}
+.row-footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.row-footer ul li {
+    margin: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.row-footer p {
+    color: white;
+}
+.row-footer ul li i {
+    margin-right: 10px;
+}
+.row-footer ul li a {
+    color: white;
+}
+.row-footer ul.social-media li {
+    float: left;
+}
+.footer {
+    background: black;
+    color:#979797;
+}
+.footer p {
+    text-align: center;
+    padding: 15px;
+}
+#btnTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    background: #262222;
+    color: white;
+    border: none;
+    opacity: 0.8;
+}
+#btnTop:hover {
+    opacity: 1;
+}
+.user-info {
+    background: rgb(44, 41, 41);
+    text-align: center;
+    padding: 30px;
+}
+.user-info .content {
+    width: 70%;
+    margin: auto;
+    border: 1px solid #515254;
+    padding: 20px;
+}
+.user-info .content h4 {
+    color: orange;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 1.75em;
+}
+.user-info .content p {
+    color: white;
+}
+.user-info .content form {
+    display: flex;
+    justify-content: center;
+}
+.user-info .content form input {
+    width: 50%;
+    height: 50px;
+}
+.user-info .content form button {
+    margin-left: 15px;
+    background: orange;
+    padding:0 30px;
+    border: none;
+    font-family: serif;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 1.5em;
+}
+.user-info .content  button:hover {
+    background: black;
+}
+
+
+
+
+
+
+

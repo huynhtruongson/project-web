@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+.header {
+    height: 45px;
+    background-color:black;
+}
+.header ul li {
+    color: white;
+    margin: 15px;
+}
+.menu  h1 span {
+    color:red;
+    font-size: 1.8em;
+}
+.menu  h1 a {
+    text-decoration: none;
+    color:yellow;
+}
+
+ul.nav.navbar-nav>li {
+    font-size: 1.2em;
+    margin: 0 0.8em;
+    border-right: 1px solid black;
+    padding-right: 1.5em;
+}
+ul.nav.navbar-nav li a {
+    color: black;
+    text-decoration: none;
+}
+ul.nav.navbar-nav li a:hover {
+    color: red;
+    transition: 0.7s;
+}
+ul.nav.navbar-nav li:nth-child(5) {
+    border-right: none;
+}
+.menu .navbar {
+    border-bottom: 1px solid black;
+}
+.menu .navbar .navbar-collapse {
+    margin-left: 33em;
+}
+.menu .navbar button {
+    border:1px solid red;
+}
+.banner {
+    background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 46%, rgba(0, 0, 0,0.4) 64%,rgba(0, 0, 0,0.1) 100%);	
+}
+.banner p {
+    color: orange;
+    font-size: 40px;
+    padding: 25px;
+    font-family: serif;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.container {
+    margin-bottom: 50px;
+    border: 1px solid #e6e7e8;
+    border-radius: 10px;
+}
+.container form {
+    padding:35px 20px 40px;
+    color: #333333;
+}
+.container form .form-group .form-control {
+    background: #f6f6f6;
+}
+.container form button {
+    background: orange;
+    color: white;
+    font-size: 20px;
+}
+.container form button:hover {
+    background: black;
+}
+.footer {
+    background: black;
+    color:#979797;
+    padding:auto;
+}
+.footer p {
+    text-align: center;
+    padding: 10px;
+}

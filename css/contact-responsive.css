@@ -1,0 +1,11 @@
+@media only screen and (max-width:900px) {
+    .row-content {
+        display: block;   
+    }
+    .row-content .left-sidebar {
+        width: 100%;
+    }
+    .row-content .right-sidebar {
+        width: 100%;
+    }
+}

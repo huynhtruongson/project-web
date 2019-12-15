@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+}
+.header {
+    height: 45px;
+    background-color:black;
+}
+.header ul li {
+    color: white;
+    margin: 15px;
+}
+.menu  h1 span {
+    color:red;
+    font-size: 1.8em;
+}
+.menu  h1 a {
+    text-decoration: none;
+    color:yellow;
+}
+
+ul.nav.navbar-nav>li {
+    font-size: 1.2em;
+    margin: 0 0.8em;
+    border-right: 1px solid black;
+    padding-right: 1.5em;
+}
+ul.nav.navbar-nav li a {
+    color: black;
+    text-decoration: none;
+}
+ul.nav.navbar-nav li a:hover {
+    color: red;
+    transition: 0.7s;
+}
+ul.nav.navbar-nav li:nth-child(5) {
+    border-right: none;
+}
+.menu .navbar {
+    border-bottom: 1px solid black;
+}
+.menu .navbar .navbar-collapse {
+    margin-left: 33em;
+}
+.menu .navbar button {
+    border:1px solid red;
+}
+.banner {
+    background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 46%, rgba(0, 0, 0,0.4) 64%,rgba(0, 0, 0,0.1) 100%);	
+}
+.banner p {
+    color: orange;
+    font-size: 40px;
+    padding: 25px;
+    font-family: serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.content {
+    margin: auto;
+    width: 80%;
+}
+.content .introduce {
+    margin-bottom: 60px;
+}
+.content .introduce  h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #242424;
+    font-family: serif;
+    color: orange;
+}
+.content .introduce p {
+    color: #242424;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+
+}
+.content .gallery .gallery-text {
+    text-align: center;
+}
+.content .gallery .gallery-text h2 {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #242424;
+    font-family: serif;
+    color: orange;
+}
+.content .gallery .gallery-text p {
+    color: #242424;
+    line-height: 32px;
+    letter-spacing: 0.1px;   
+}
+.content .row {
+    justify-content: center;
+    padding: 10px;
+}
+.content .row .card {
+    padding:12px;
+    margin:7px;
+}
+.content .row .card:hover {
+    border-top: 5px solid red ;
+    box-shadow: 5px 10px 8px #888888;
+    transition:0.8s;
+}
+.content .row .card h5 {
+    color: #fc5a03;
+}
+.content .view-more {
+    text-align: center;
+    margin: 15px;
+}
+.content .view-more a{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #AE954B;
+    font-family: serif;
+    font-weight: 600;
+    color: black;
+}
+.content .view-more a i {
+    margin-left: 12px;
+}
+.content .view-more a:hover {
+    text-decoration: none;
+    color: orange;
+}
+.content .staff-tittle {
+    margin: 25px;
+}
+.content .staff-tittle h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #242424;
+    font-family: serif;
+    color: orange;
+}
+.content .staff {
+    margin-bottom: 20px;
+}
+.content .staff .row h5 {
+    color: #ae9548;
+    font-family: serif;
+    font-weight: 600;
+    margin:15px 15px 0px;
+}
+.content .staff .row p {
+    color: #242424;
+    font-family: serif;
+    font-weight: 600;
+    margin:0px 15px 0px
+}
+.row-footer {
+    background: rgb(44, 41, 41);
+    justify-content: center;
+}
+.row-footer h3 {
+    color: orange;
+    font-family:serif;
+    font-weight: bold;
+}
+.row-footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.row-footer ul li {
+    margin: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.row-footer p {
+    color: white;
+}
+.row-footer ul li i {
+    margin-right: 10px;
+}
+.row-footer ul li a {
+    color: white;
+}
+.row-footer ul.social-media li {
+    float: left;
+}
+.footer {
+    background: black;
+    color:#979797;
+}
+.footer p {
+    text-align: center;
+    padding: 15px;
+}
+#btnTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    background: #262222;
+    color: white;
+    border: none;
+    opacity: 0.8;
+}
+#btnTop:hover {
+    opacity: 1;
+}
+#carouselExampleControls {
+    width: 85%;
+    margin: auto;
+}
+#carouselExampleControls .carousel-inner .carousel-item img {
+
+    height: 550px;
+}
